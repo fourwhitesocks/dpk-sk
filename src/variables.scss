@@ -1,1 +1,30 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
+:root {
+    --wrapper: 75rem;
+    --surface: rgb(250, 244, 244);
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: hsl(167, 9%, 20%);
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-900: 900;
+
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-550: 1.5rem;
+    --fs-600: 2rem;
+    --fs-700: 3rem;
+
+    --red-400: hsla(357, 100%, 68%, 1);
+    --red-500: hsl(357, 74%, 40%);
+    --blue-800: hsla(216, 71%, 16%, 1);
+    /* --neutral-100: hsl(0 0% 100%); */
+
+    --size-8: 0.5rem;
+    --size-12: 0.75rem;
+    --size-16: 1rem;
+    --size-32: 2rem;
+    --size-36: 3rem;
+}
