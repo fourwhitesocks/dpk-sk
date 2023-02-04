@@ -44,11 +44,16 @@
 		align-items: center;
 	}
 
-	.circle-image {
+	svg {
+		position: absolute;
+		top: -28px;
+		right: -132px;
+	}
+	/* .circle-image {
 		-webkit-mask-image: url('circle.svg');
 		-webkit-mask-size: cover;
 		-webkit-mask-repeat: no-repeat;
 		-webkit-mask-position: bottom;
 		z-index: -1;
-	}
+	} */
 </style>
