@@ -9,30 +9,45 @@
 			<div class="logo-graphic"><LogoLight /></div>
 			<div class="logo-text">DIGITAL PAIN KILLERS</div>
 		</div>
-		<svg class="circle-image" height="200" width="200">
-			<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="white" />
-		</svg>
-		<div class="contact">Contact Me</div>
+		<div class="contact">Questions?</div>
 	</div>
+
+	<svg
+		width="130"
+		height="130"
+		viewBox="0 0 130 130"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<circle id="contact-circle" cx="65" cy="65" r="65" fill="white" />
+	</svg>
 </header>
 
 <style lang="scss">
 	.header {
 		background-color: var(--clr-neutral-900);
+		position: relative;
 	}
 	.nav-container {
 		max-width: var(--wrapper);
 		margin-inline: auto;
 		padding: 1em 2em;
 		justify-content: space-between;
+		position: relative;
 
 		.logo-text {
 			color: var(--clr-neutral-100);
 			font-weight: var(--fw-700);
 		}
-		.contact {
-			color: var(--red-400);
-		}
+	}
+
+	.contact {
+		color: var(--clr-neutral-900);
+		font-weight: var(--fw-700);
+		z-index: 4;
+		position: absolute;
+		left: 89%;
+		top: 35px;
 	}
 	.logo-text {
 		font-size: var(--fs-550);
@@ -46,8 +61,10 @@
 
 	svg {
 		position: absolute;
-		top: -28px;
-		right: -132px;
+		height: 163px;
+		width: 163px;
+		/*top: -31px;
+		right: -31px; */
 	}
 	/* .circle-image {
 		-webkit-mask-image: url('circle.svg');
