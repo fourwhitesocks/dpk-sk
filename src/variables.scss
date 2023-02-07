@@ -4,6 +4,7 @@
     --surface: rgb(250, 244, 244);
     --clr-neutral-100: #fff;
     --clr-neutral-900: hsl(167, 9%, 20%);
+    --clr-lite-accent: hsl(0 0% 85%);
     --ff-primary: "Roboto", sans-serif;
     --ff-accent: "Playfair Display", serif;
 
@@ -30,4 +31,10 @@
     --size-40: 4rem;
     --size-44: 5rem;
     --size-48: 6rem;
+    // size for em
+    --em-size-8: 0.5em;
+    --em-size-12: 0.75em;
+    --em-size-16: 1em;
+    --em-size-32: 2em;
+    --em-size-36: 3em;
 }
