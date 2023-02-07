@@ -9,18 +9,13 @@
 			<div class="logo-graphic"><LogoLight /></div>
 			<div class="logo-text">DIGITAL PAIN KILLERS</div>
 		</div>
-		<div class="contact">Questions?</div>
 	</div>
-
-	<svg
-		width="130"
-		height="130"
-		viewBox="0 0 130 130"
-		fill="none"
-		xmlns="http://www.w3.org/2000/svg"
-	>
-		<circle id="contact-circle" cx="65" cy="65" r="65" fill="white" />
-	</svg>
+	<div class="questions">Questions?</div>
+	<div class="circle-container">
+		<svg width="120" height="126" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle id="contact-circle" cx="63" cy="63" r="63" fill="pink" />
+		</svg>
+	</div>
 </header>
 
 <style lang="scss">
@@ -41,14 +36,21 @@
 		}
 	}
 
-	.contact {
-		color: var(--clr-neutral-900);
+	.questions {
+		color: var(--red-400);
 		font-weight: var(--fw-700);
 		z-index: 4;
 		position: absolute;
-		left: 89%;
+		right: 0;
 		top: 35px;
 	}
+	.circle-container {
+		width: 80px;
+		position: absolute;
+		right: 1%;
+		top: -16%;
+	}
+
 	.logo-text {
 		font-size: var(--fs-550);
 		font-weight: bolder;
@@ -60,10 +62,10 @@
 	}
 
 	svg {
-		position: absolute;
+		/*position: absolute;
 		height: 163px;
 		width: 163px;
-		/*top: -31px;
+		top: -31px;
 		right: -31px; */
 	}
 	/* .circle-image {
