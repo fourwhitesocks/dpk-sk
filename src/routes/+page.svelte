@@ -1,18 +1,32 @@
-<h1>Digital Pain Killers dot com</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="grid grid-cols-2 card-container">
+	<img src="./funny-owl-sq-ed.jpg" width="450px" alt="funny owl" />
 
-<p>
-	https://levelup.gitconnected.com/how-to-setup-svelte-or-sveltkit-tailwind-typescript-scss-2022-16613f128793
-</p>
-<svg height="130" width="130">
-	<circle r="65" stroke="black" stroke-width="3" fill="red" />
-	Sorry, your browser does not support inline SVG.
-</svg>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt molestias perspiciatis,
+		voluptate iste ratione, enim dolorum magni earum recusandae odio aperiam corrupti consequatur
+		itaque culpa ipsam tempora unde quisquam cupiditate delectus natus voluptatem. Ut illo nobis
+		iusto repudiandae cumque inventore id blanditiis illum quis commodi consectetur autem magni
+		maiores, nesciunt fuga perferendis excepturi! Similique, deserunt sed, tempora voluptatum iure
+		inventore excepturi voluptas quas unde iusto cum repellendus qui, eligendi nesciunt laboriosam
+		ea nulla explicabo!
+	</div>
+</div>
 
 <style lang="scss">
 	p {
 		a {
 			color: red;
 		}
+	}
+
+	.card-container {
+		gap: var(--size-44);
+		margin: 0 auto;
+		max-width: 1019px;
+		padding: var(--size-44) 0;
+	}
+
+	img {
+		border-radius: 25px;
 	}
 </style>
