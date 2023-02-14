@@ -47,8 +47,9 @@
 	.circle-container {
 		width: 80px;
 		position: absolute;
-		right: 1%;
+		right: 0%;
 		top: -16%;
+		overflow: hidden;
 	}
 
 	.logo-text {

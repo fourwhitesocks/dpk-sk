@@ -1,6 +1,7 @@
 <div class="grid grid-cols-2 card-container">
 	<div class="left-card">
-		<img class="" src="./funny-owl-sq-ed.jpg" width="" alt="funny owl" />
+		<img class="" src="./funny-owl-sq-ed.jpg" width="460" alt="funny owl" />
+
 		<div class="card-bg" />
 	</div>
 
@@ -8,7 +9,7 @@
 		<div class="card-bg" />
 		<div class="inside-body">
 			<div class="center card-text-medium">
-				<span class="card-text-large">WHO</span><br />
+				<span class="card-text-large">WHO</span>
 				needs help?
 			</div>
 			<div class="center card-text-small">Looking for a solution?</div>
@@ -25,17 +26,21 @@
 		}
 	}
 
+	/* .owl {
+		background-image: url('./funny-owl-sq-ed.jpg');
+		background-image: cover;
+	} */
+
 	.center {
 		text-align: center;
 	}
 	.inside-body {
-		padding: var(--em-size-8);
 	}
 
 	.card-bg {
 		position: absolute;
-		background-color: lime;
-		transform: rotate(-6deg) skewX(0deg) skewY(0deg) scaleY(1.1) scaleX(1);
+		background-color: var(--clr-neutral-900);
+		transform: rotate(355deg);
 
 		left: 0;
 		right: 0;
