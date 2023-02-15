@@ -1,6 +1,6 @@
 <div class="grid grid-cols-2 card-container">
 	<div class="left-card">
-		<img class="" src="./funny-owl-sq-ed.jpg" width="460" alt="funny owl" />
+		<img class="" src="./funny-owl-sq-ed.jpg" alt="funny owl" />
 
 		<div class="card-bg" />
 	</div>
@@ -66,11 +66,13 @@
 	.card-container {
 		gap: var(--size-44);
 		margin: 0 auto;
-		max-width: 1019px;
-		padding: var(--size-44) 0;
+		/*max-width: 1019px;  */
+		/*padding: var(--size-44) 0; */
+		padding: var(--size-36);
 	}
 
 	img {
+		width: 100%;
 		border-radius: 25px;
 		position: relative;
 	}
