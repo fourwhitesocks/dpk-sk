@@ -1,93 +1,12 @@
-<div class="grid grid-cols-2 card-container">
-	<div class="left-card">
-		<img class="" src="./funny-owl-sq-ed.jpg" alt="funny owl" />
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+</script>
 
-		<div class="card-bg" />
-	</div>
+<div class="main-container"><Hero /></div>
 
-	<div class="flex right-card">
-		<div class="card-bg" />
-		<div class="inside-body">
-			<div class="center card-text-medium">
-				<span class="card-text-large">WHO</span>
-				needs help?
-			</div>
-			<div class="center card-text-small">Looking for a solution?</div>
-			<div class="center card-text-small">Some customer service?</div>
-			<div class="center card-text-small">A new website?</div>
-		</div>
-	</div>
-</div>
-
-<style lang="scss">
-	p {
-		a {
-			color: red;
-		}
-	}
-
-	/* .owl {
-		background-image: url('./funny-owl-sq-ed.jpg');
-		background-image: cover;
-	} */
-
-	.center {
-		text-align: center;
-	}
-	.inside-body {
-	}
-
-	.card-bg {
-		position: absolute;
-		background-color: var(--clr-neutral-900);
-		transform: rotate(355deg);
-
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 0;
-		border-radius: 25px;
-		z-index: -2;
-	}
-
-	.left-card {
-		position: relative;
-	}
-	.right-card {
-		/*padding: var(--em-size-32); */
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
-		background-color: var(--clr-lite-accent);
-		border-radius: 25px;
-		position: relative;
-	}
-
-	.card-container {
-		gap: var(--size-44);
+<style>
+	.main-container {
+		max-width: var(--wrapper);
 		margin: 0 auto;
-		/*max-width: 1019px;  */
-		/*padding: var(--size-44) 0; */
-		padding: var(--size-36);
-	}
-
-	img {
-		width: 100%;
-		border-radius: 25px;
-		position: relative;
-	}
-
-	.card-text-large {
-		font-weight: bold;
-		font-size: 8rem;
-	}
-
-	.card-text-medium {
-		font-size: var(--fs-700);
-		font-weight: bold;
-	}
-
-	.card-text-small {
-		font-size: var(--fs-600);
 	}
 </style>
